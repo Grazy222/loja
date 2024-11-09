@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Josefin+Sans:wght@400;700&family=Kablammo&family=Merriweather&family=Nunito&family=Roboto&family=Rubik&display=swap"
+        rel="stylesheet">
+
+    <title>Loja de Roupas</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">MODA FEMININA</a></li>
+                <li><a href="#">MODA INFANTIL </a> </li>
+                <li><a href="#"> MODA MASCULINA</a></li>
+                <li><a href="#"> CALÇADOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <div class="container">
+                <img src="./imagem/image 6.png" alt="Foto-casaco" />
+                <h2>R$180,00</h2>
+                <p>Casaco Camuflado</p>
+                <button class="btn">COMPRAR</button>
+                <Form class="medidas">
+                    <input id="p" type="radio" name="grupo" value="p" />
+                    <label for="">P</label>
+                    <input id="m" type="radio" name="grupo" value="p" />
+                    <label for="">M</label>
+                    <input id="g" type="radio" name="grupo" value="p" />
+                    <label for="">G</label>
+                    <input id="gg" type="radio" name="grupo" value="p" />
+                    <label for="">GG</label>
+                </Form>
+            </div>
+
+            <div class="container">
+                <img src="./imagem/image 2.png" alt="blusa feminina" />
+                <h2 class="precoCasaco">R$20,00</h2>
+                <p>Blusa Feminina</p>
+                <button class="btn">COMPRAR</button>
+                <Form class="medidas">
+                    <input id="p" type="radio" name="grupo" value="p" />
+                    <label for="">P</label>
+                    <input id="m" type="radio" name="grupo" value="p" />
+                    <label for="">M</label>
+                    <input id="g" type="radio" name="grupo" value="p" />
+                    <label for="">G</label>
+                    <input id="gg" type="radio" name="grupo" value="p" />
+                    <label for="">GG</label>
+                </Form>
+            </div>
+            <div class="container">
+                <img src="./imagem/image 3.png" alt="camiseta-preta">
+                <h2>R$30,00</h2>
+                <p>Camiseta Preta</p>
+                <button class="btn">COMPRAR</button>
+                <Form class="medidas">
+                    <input id="p" type="radio" name="grupo" value="p" />
+                    <label for="">P</label>
+                    <input id="m" type="radio" name="grupo" value="p" />
+                    <label for="">M</label>
+                    <input id="g" type="radio" name="grupo" value="p" />
+                    <label for="">G</label>
+                    <input id="gg" type="radio" name="grupo" value="p" />
+                    <label for="">GG</label>
+                </Form>
+            </div>
+            <div class="container">
+                <img src="./imagem/image 5.png" alt="casaco">
+                <h2>R$150,00</h2>
+                <p>Casaco Xadrez</p>
+                <button class="btn">COMPRAR</button>
+                <Form class="medidas">
+                    <input id="p" type="radio" name="grupo" value="p" />
+                    <label for="">P</label>
+                    <input id="m" type="radio" name="grupo" value="p" />
+                    <label for="">M</label>
+                    <input id="g" type="radio" name="grupo" value="p" />
+                    <label for="">G</label>
+                    <input id="gg" type="radio" name="grupo" value="p" />
+                    <label for="">GG</label>
+                </Form>
+            </div>
+        </section>
+        <section class="cadastro">
+            <div class="containerCadastro">
+                <h3>Adicionar Novo Produto:</h3>
+                <form id="productForm">
+                    <label for="productName">Nome do Produto:</label>
+                    <input type="text" id="productName" required />
+                    <label for="productPrice">Preço:</label>
+                    <input type="text" id="productPrice" required />
+                    <label for="productImage">Imagem (URL):</label>
+                    <input type="text" id="productImage" required />
+                    <button class="btn-cadastro" type="submit">Adicionar Produto</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3>FAÇA O SEU CADASTRO:</h3>
+            <form class="formularioFooter">
+                <label for="nome">NOME:</label>
+                <input type="text">
+                <label for="nome">E-MAIL:</label>
+                <input type="text">
+                <label for="nome">SENHA</label>
+                <input type="text">
+                <input class="enviar" type="submit" value="Enviar" />
+            </form>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

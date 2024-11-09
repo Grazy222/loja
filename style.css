@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    background-color: #df253e;
+    box-shadow: inset 0 7px 11px 2px rgb(112, 111, 111);
+    font-weight: 100;
+    font-family: Inter;
+
+}
+
+nav {
+    width: 100%;
+    height: 20vh;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-family: "Inter";
+    height: 20vh;
+
+}
+
+a {
+    color: azure;
+    list-style: none;
+}
+
+li {
+    border: solid 1px;
+
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #E8A6FF;
+    color: #e2d5e7;
+}
+
+main {
+    box-shadow: inset 8px 8px 8px rgb(216, 204, 204);
+    background-color: #9da5a7;
+    /* height: 100vh; */
+}
+
+section#products {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: inset 0px 7px 18px rgb(216, 204, 204);
+    border: 1px #A620D6 solid;
+    background-color: azure;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+
+img {
+
+    height: 31vh;
+    display: inline-block;
+    margin: 10px;
+}
+
+h2 {
+    color: #ca0d0d;
+    box-shadow: inset 0px 0px 4px rgb(216, 204, 204);
+}
+
+p {
+    font-style: initial;
+
+}
+
+button.btn {
+    box-shadow: inset 8px 7px 12px rgb(8, 240, 66);
+    border-radius: 25px;
+    background-color: #67ce5e;
+    border: none;
+    padding: 10px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.containerCadastro {
+    border: solid 1px;
+    box-shadow: inset 0px 0px 4px rgb(235, 97, 97);
+    border-radius: 25px;
+    height: 20vh;
+    width: 77%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+#productForm {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.btn-cadastro {
+    margin-left: 10px;
+    border-radius: 25px;
+    height: 30px;
+    width: 15%;
+    background-color: #ca0d0d;
+    color: antiquewhite;
+    border: none;
+}
+
+.btn-cadastro:hover {
+    cursor: pointer;
+}
+
+footer {
+    box-shadow: inset 0 7px 11px 2px rgb(112, 111, 111);
+    background-color: #da0e29;
+    height: 20vh;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: "inter";
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 96%;
+    height: 20vh;
+}
+
+
+.formularioFooter {
+    margin-left: 53px;
+    font-family: "inter";
+
+}
+
+#productName {
+    border: none;
+    width: 100px;
+}
+
+label {
+    color: rgba(16, 16, 177, 0.986);
+    font-size: 14px;
+}
+
+.enviar {
+    width: 5vw;
+    height: 3vh;
+    border-radius: 25px;
+    border: none;
+    background-color: #e2d5e7;
+
+}
